@@ -4,19 +4,13 @@
 
 This document provides instructions to set up and run the React Component Library developed as part of the coding assignment. This library includes various UI components and is Dockerized for easy setup and deployment.
 
-## Prerequisites
-
-- Docker installed on your system.
-
-## Setup and Running the Application
-
 ### Cloning the Repository
 
 First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Nav9Nav123/ca13.git
-cd react-component
+cd ac13-master
 ```
 
 ### Building the Docker Image
@@ -56,24 +50,6 @@ The library includes the following components:
 - Card
   Each component is responsive and includes a default state and a disabled state.
 
-## Continuous Integration and Deployment
-
-This project uses GitHub Actions for Continuous Integration (CI) to automate the process of code quality checks, and testing. Our CI workflow includes the following steps:
-
-- **Code Quality Checks**: Automatically runs ESLint and Prettier to ensure that all code changes meet our coding standards.
-- **Automated Testing**: Runs all unit and integration tests using Jest to ensure that all features work as expected.
-
-
-### Workflow Triggers
-
-- The CI workflow is triggered on every push and pull request to the `main` branch.
-- Contributors are encouraged to run ESLint, Prettier, and Jest tests locally before pushing their code. This can be done using the following commands:
-
-```bash
-npm run lint
-npm run format
-npm test
-```
 
 ## Storybook
 
